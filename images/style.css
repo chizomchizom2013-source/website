@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+.div1{
+    background-image: url(/images/desktop/image-header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.nav-div a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.nav-div button{
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 22px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.orange{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+    gap: 40px; 
+}
+
+.head{
+    color: white;
+}
+
+.div2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+}
+.grid1{
+    background-color: whitesmoke ;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    box-sizing: border-box;
+    gap: 20px;
+}
+.grid1 p{
+    font-size: 18px;
+}
+.grid1 a{
+    color: black;
+    text-decoration-color: yellow;
+    text-decoration-thickness: 2px;
+}
+.grid4{
+    background-color: whitesmoke;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    box-sizing: border-box;
+    gap: 20px;
+}
+.grid4 p{
+    font-size: 18px;
+}
+.grid4 a{
+    color: black;
+    text-decoration-color: yellow;
+    text-decoration-thickness: 2px;
+}
+.grid5{
+    background-image: url(/images/desktop/image-graphic-design.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 40px;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    box-sizing: border-box;
+}
+.grid5 h1{
+    color: hsl(167, 40%, 24%) ;
+}
+.grid5 p{
+    font-size: 18px;
+    color: hsl(167, 40%, 24%) ;
+}
+.grid6{
+    background-image: url(/images/desktop/image-photography.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 40px;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    box-sizing: border-box;
+}
+.grid6 h1{
+    color: hsl(198, 62%, 26%);
+}
+.grid6 p{
+   font-size: 18px; 
+   color: hsl(198, 62%, 26%);
+}
+.div3{
+    background-color: whitesmoke;
+    padding: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.flex-1 img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.flex-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.flex-1 p{
+    text-align: center;
+}
+.flex-1 h2{
+    margin-top: 40px;
+}
+.div4{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 25% 25% 25% 25%;
+    align-items: center;
+    justify-content: center;
+}
+.div4 img{
+    width: 100%
+}
+
+
