@@ -203,7 +203,7 @@ background-image: url(images/desktop/image-graphic-design.jpg);
 
 @media (min-width:200px) and (max-width:1024px) {
     body{
-        width: 60%;
+        width: 100%;
         overflow-x: hidden;
     }
     main{
@@ -240,7 +240,7 @@ background-image: url(images/desktop/image-graphic-design.jpg);
         margin-top: 50px;
     }
     .grid-2 img{
-        width: 100%;
+        width: 752px;
         height: 100%;
     }
     .flex{
